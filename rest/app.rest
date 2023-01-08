@@ -1,0 +1,6 @@
+### generate image
+@baseUrl = http://localhost:8088
+GET {{baseUrl}}/image?prompt=tiger
+
+### chatgpt
+GET {{baseUrl}}/answer?message=hello
